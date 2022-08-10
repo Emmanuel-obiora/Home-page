@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/*Master styles*/
+body{
+    margin: 0px;
+    font-family:"Montserrat", sans-serif;
+    font-weight:300;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/*Nav styles*/
+.nav_links{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+.left-side{
+    display: flex;
+}
+.nav_links > .left-side > .nav-link > a{
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+.nav-link{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.nav-link a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-link a:hover{
+    border-bottom: 1px solid black;
+    color: black; 
+}
+/*image styles*/
+.image{
+    height:30px;
+    width:30px;
+    background: none;
+    border: 1px solid #9799a7;
+    float:right;
+    margin: 8px 0 0 20px;
+    padding: 3px;
+}
+.images > img{
+    height: 50px;
+    width:50px;
+    background-size: cover;
+    border: 1px solid white;
+    float:left;
+    margin: 8px 0 0 20px;
+    padding: 3px;
+}
+.images > img:hover{
+    transform: scale(1.4);
+    
+}
+/*Portfolio styles*/
+.sample-images{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+.sample-image{
+    position:relative;
+    justify-content: center;
+    margin-left: 40%;
+}
+.image-main{
+    position:relative;
+    overflow: hidden;
+}
+.image-main > img{
+    height: 300px;
+    width: 200px;
+}
+
+/*.top-img{
+    position:absolute;
+    left:0;
+    top:0;
+    opacity: 0;
+}*/
+.top-img1{
+    position:absolute;
+    left:0;
+    top:0;
+    opacity: 0;
+}
+.top-img2{
+    position:absolute;
+    left:0;
+    top:0;
+    opacity: 0;
+}
+.top-img3{
+    position:absolute;
+    left:0;
+    top:0;
+    opacity: 0;
+}
+.sales-info{
+    margin-right: 40%;
+   
+}
+.price-tag{
+    display: flex;
+}
+.price-tag > p {
+    color: rgb(248, 8, 8);
+    margin-left: 5%;
+    background-color:peachpuff;
+    margin-bottom:auto;
+    justify-content: center;
+}
+.price-tag-former{
+    color: #8a8a8a;
+}
+.cart-increment{
+    display: flex;
+    justify-content: left;
+    min-height: 100vh;
+}
+.increment-button{
+    display: flex;
+    align-items: center;
+    width:80px;
+    height: 15px;
+    background:grey;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+.sub{
+    border-right: 1px solid whitesmoke;
+    padding-right: 8px;
+    cursor: pointer;
+}
+.add{
+    border-left: 1px solid whitesmoke;
+    padding-left: 8px;
+    cursor: pointer;
+}
+.value{
+    font-size: 16px;
+    font-weight: bold;
+}
+.cart-box{
+    margin-left: 3px;
+    align-items: center;
+    margin-top: 3px;
+    justify-content: center;
+}
+.cart-box a img{
+    height: 20px;
+    width: 30px;
+    align-items: center;
+}
+
+/**{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+li, a {
+    font-family:"Montserrat", sans-serif;
+    font-weight:500;
+    font-size:13px;
+    color: white;
+    text-decoration:none;
+    background-color: #ffa500;
+}
+header{
+    display: flex;
+    background-color:orange;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+    order:3;
+    margin-left:auto;
+}
+nav{
+    order:1;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    background-color: #ffa500;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color:blue;
+}*/
+/*.logo{
+    padding:9px 25px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-block-end: auto;
+    
+}
+.logo:hover{
+    background-color: rgba(0,136,169,0.8);
+}*/
+/*img{
+    height:40px;
+    width:40px;
+    background: none;
+    border: 1px solid #9799a7;
+    float:left;
+    margin: 8px 0 0 20px;
+    padding: 3px;
+    
+}*/
+

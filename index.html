@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sneakers sales</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="nav_links">
+            <div class="left-side">
+                <div class="nav-link">
+                    <a href="index.html"><b>Sneakers</b></a>
+                    <img><a href="#">Collections</a></img>
+                    <a href="#">Men</a>
+                    <a href="#">Women</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="icons">
+                    <div>
+                        <img class="image" src="dp.jpg" alt="profile picture">
+                        <a href="#"><img class="image" src="cart1.png" alt="cart"></a>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="sample-images">
+            <div class="sample-image">
+                <div class="image-main">
+                    <img class="top-img" src="sneakers-img-10.jpg" alt="img1">
+                    <img class="top-img1" src="sneakers-img-11.jpg" alt="img2">
+                    <img class="top-img2" src="sneakers-img-12.jpg" alt="img3">
+                    <img class="top-img3" src="sneakers-img-13.jpg" alt="img4">
+                </div>
+                <div class="images">
+                    <img src="sneakers-img-10.jpg">
+                    <img src="sneakers-img-11.jpg">
+                    <img src="sneakers-img-12.jpg">
+                    <img src="sneakers-img-13.jpg">
+                </div>
+            </div>
+            <div class="sales-info">
+                <h6 style="color:orange">SNEAKER COMPANY</h6>
+                <div class="about-sneakers">
+                    <h1> <b>Fall Limited Edition Sneakers</b> </h1>
+                </div>
+                <div class="more-details">
+                    <p>These low profile sneakers are your perfect casual wear companion. featuring a durable rubber outer sole. They'll withstand everything the weather can offer</p>
+                </div>
+                <div class="price-tag">
+                    <h2><b>$125.00</b></h2>
+                    <p>50%</p>
+                </div>
+                <div class="price-tag-former">$250</div>
+                <div class="cart-increment">
+                    <div class="increment-button">
+                        <div class="sub">-</div>
+                        <div class="value">0</div>
+                        <div class="add">+</div>
+                    </div>
+                    <div class="cart-box">
+                        <a href="#"> <button><img src="cart1.png"> Add to cart</button> </a>
+                    </div>
+                </div>
+            </div>
+
+    
+        </div>
+    </div>
+ <script>
+    const sub=document.queryselector('.sub');
+    const add=document.queryselector('.add');
+    const value=document.queryselector('.value');
+
+    let totalvalue = 0;
+    value.innerHTML = Totalvalue;
+
+    add.oneclick = function(){
+        TotalValue++;
+        value.innerHTML = TotalValue;
+    }
+    sub.oneclick = function(){
+        TotalValue--;
+        value.innerHTML = TotalValue;
+    }
+ </script>
+  </body>
+</html>
